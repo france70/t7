@@ -31,7 +31,7 @@ async def main(client: TelegramClient, logger: Logger) -> None:
     while True:
         current_time = datetime.now()
         # if True:
-        if current_time.hour == 4 and current_time.minute == 30 and current_time.second == 0:
+        if current_time.hour == 23 and current_time.minute == 10 and current_time.second == 0:
             logger.info("It's message removing time!")
             try:
                 await delete_read_messages(client, logger)
