@@ -1,0 +1,1 @@
+Actually not a bot, just Telegram client application for removing messages at 01.00 AM every day.
