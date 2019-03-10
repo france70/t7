@@ -53,7 +53,7 @@ if __name__ == "__main__":
     bot_logger.addHandler(handler)
 
     proxy = None
-    proxy = (SOCKS5, '51.144.86.230', 18001, True, 'usrTELE', 'avt231407')
+   
     telegram_client = TelegramClient(PHONE_NUMBER.strip('+'),
                                      APP_API_ID,
                                      APP_API_HASH,
